@@ -1,0 +1,275 @@
+/*GENERAL*/
+
+*{
+	font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+body{
+	min-height: 100vh;
+	padding-bottom: 100px;
+	position: relative;
+}
+
+header{
+	background-color: #FFF;
+	border-bottom: 1px solid #CCC;
+}
+
+.row{
+	margin: 0;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+#btn-primary{
+	background-color: #FFF;
+	border: 2px solid #0008;
+	color: #000;
+}
+
+#btn-primary:hover{
+	background-color: #0003;
+	border-color: #0008;
+}
+
+.msg{
+	width: 100%;
+	background-color: #d4edda;
+	color: #155724;
+	border: 1px solid #C3E6CB;
+	margin-bottom: 0px;
+	text-align: center;
+	padding: 10px;
+}
+
+#info-container .already-saved-msg{
+	margin: 15px 0;
+	color: #004085;
+	background-color: #CCE5FF;
+	border: 1px solid #B8BAFF;
+	padding: 10px;
+	width: 202px;
+	text-align: center;
+	
+}
+
+/*NAVBAR*/
+
+#navbar{
+	justify-content: space-between;
+	background-color: #fff;
+	padding: 10px 0;
+}
+
+#navbarNav{
+	flex-grow: 0;
+}
+
+#navbar a{
+	font-size: 14px;
+	color: #757575;
+}
+
+#navbar a:hover{
+	color: #F2A340;
+}
+
+/*SEARCH CONTAINER*/
+
+#search-container{
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	padding: 50px;
+	text-align: center;
+}
+
+#search-container h1{
+	color: #F2A340;
+	margin-bottom: 30px;
+	font-weight: 900;
+}
+
+#search-container form{
+	width: 50%;
+	margin: 0 auto;
+}
+
+/*REVIEWS LIST*/
+
+#reviews-container{
+	padding: 50px;
+}
+
+#reviews-container h2{
+	margin-bottom: 10px;
+}
+
+#reviews-container .subtitle{
+	color: #757575;
+	margin-bottom: 30px;
+}
+
+#cards-container{
+    display: flex;
+}
+
+#reviews-container .card{
+	flex: 1 1 0;
+	min-width: 22%;
+	max-width: 22%;
+	border-radius: 10px;
+	padding: 0;
+	margin: 5px;
+}
+
+#reviews-container img{
+	max-height: 200px;
+	object-fit: contain;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.card .card-date,
+.card .card-author{
+	font-size: 12px;
+	color: #CCC;
+}
+
+.card .card-saves{
+	color: red;
+	font-size: 12px;
+}
+
+.card-saves{
+	margin-bottom: 30px;
+}
+.card .card-title{
+	color: #212121;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+/*CREATE REVIEW - FORM*/
+
+#review-create-container{
+	padding: 30px;
+}
+
+#review-create-container h1{
+	margin-bottom: 1.5rem;
+}
+
+#review-create-container .form-group{
+	margin-bottom: 1rem;
+}
+
+#review-create-container .form-group label{
+	margin-bottom: .8rem;
+	font-weight: bold;
+}
+
+#review-create-container input,
+#review-create-container textarea{
+	font-size: 12px;
+}
+
+
+/*REVIEW - SHOW - PAGE*/
+
+#image-container,
+#info-container{
+	margin-top: 30px;
+}
+
+#image-container img{
+	border-radius: 10px;
+	min-width: 20.5rem;
+	height: auto;
+
+}
+
+#info-container h1{
+	font-size: 36px;
+	font-weight: 900;
+}
+
+#info-container p{
+	margin: 0;
+	font-size: 14px;
+	display: flex;
+	line-height: 2;
+}
+
+#info-container h3{
+	font-size: 20px;
+	font-weight: 900;
+	margin-top: 20px;
+}
+
+#info-container #review-owner{
+	font-size: 13px;
+	padding-bottom: 20px;
+	color: #757575;
+} 
+
+#info-container ion-icon{
+	font-size: 20px;
+	color: #F2A340;
+	margin-right: 5px;
+}
+
+#info-container .review-save{
+	margin: 20px 0 5px 0;
+}
+
+#info-container .review-save-numbers{
+	color: #757575;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+
+
+
+/*DASHBOARD*/
+
+.dashboard-title-container{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.dashboard-reviews-container th{
+    width: 25%;
+}
+
+.dashboard-reviews-container form{
+	display: inline-block;
+}
+
+
+/*EDIT PAGE*/
+
+.img-preview{
+	width: 100px;
+	margin-top: 20px;
+}
+
+/*FOOTER*/
+
+footer{
+	background-color: #353E48;
+	padding: 2rem;
+    color: #ffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p{
+	margin-bottom: 0;
+}
